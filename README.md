@@ -1,5 +1,6 @@
 <html>
 <body>
+<h1>Autonomous-Navigation-with-SLAM</h1>
 <p>
 Autonomous Navigation of a Pioneer_p3dx in Vrep using frontier_exploration, gmapping, move_base. 
 Folders contain parameter files, launch files, Rviz files. 
@@ -29,8 +30,9 @@ NOTE: As (project_name) you can rename it yourself from CMakeLists.txt and packa
  <li>In V-Rep terminal an ERROR message is displayed saying /explore_server requires base_scan to have datatype sensor_msgs/PointCloud but out version has sensor_msgs/LaserScan. Dropping the connection! </li>
  </ol>
  </p>
+ <p>
  Help will be much appreaciated in figuring out how to make the algorithm work.
  Thank you.
- 
+ </p>
 </body>
 </html>
