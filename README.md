@@ -15,10 +15,11 @@ After cloning the repository in your catkin workspace, open a terminal and run
  <li>$ roslaunch (project_name) ex.launch </li>
 </ul>
 </p>
-
 <p>
-NOTE: If RVIZ crashes, close all other terminals, except those that are running roscore and vrep, and then retry after sourcing setup.bash file.
-NOTE: As (project_name) you can rename it yourself from CMakeLists.txt and package.xml.
+<h3>NOTE:</h3> If RVIZ crashes, close all other terminals, except those that are running roscore and vrep, and then retry after sourcing setup.bash file.
+</p>
+<p>
+<h3> NOTE:</h3> As (project_name) you can rename it yourself from CMakeLists.txt and package.xml.
 </p>
 
 <h2>Problems:</h2>
