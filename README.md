@@ -7,9 +7,10 @@ Folders contain parameter files, launch files, Rviz files.
 The launch file among many others which works is ex.launch
 After cloning the repository in your catkin workspace, open a terminal and run
 
-$ catkin_make
-$ source ./devel/setup.bash
-$ roslaunch <project_name> ex.launch
+1. $ catkin_make 
+1. $ source ./devel/setup.bash 
+3. $ roslaunch <project_name> ex.launch 
+
 
 NOTE: If RVIZ crashes, close all other terminals, except those that are running roscore and vrep, and then retry after sourcing setup.bash file.
 NOTE: As <project_name> you can rename it yourself from CMakeLists.txt and package.xml.
