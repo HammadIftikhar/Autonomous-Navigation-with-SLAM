@@ -27,7 +27,7 @@ After cloning the repository in your catkin workspace, open a terminal and run
 <ol>
  <li>After launching the program, it starts registering Laser Scans and Pose but soon fails to acquire that data.</li>
  <li>After publishing exploration boundaries and an initial point the robot doesn't move.</li>
- <li>CostMap2DT Transform data aquisition fails due to a timeout.</li>
+ <li>CostMap2D Transform data aquisition fails due to a timeout.</li>
  <li>In V-Rep terminal an ERROR message is displayed saying /explore_server requires base_scan to have datatype sensor_msgs/PointCloud but out version has sensor_msgs/LaserScan. Dropping the connection! </li>
  </ol>
  </p>
